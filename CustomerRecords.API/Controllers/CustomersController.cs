@@ -25,6 +25,11 @@ namespace CustomerRecords.API.Controllers
 
         public JsonResult CreateCustomer(Customer customer)
         {
+            if (!ModelState.IsValid)
+            {
+                return Json(new { success = false, message = "Invalid input" });
+            }
+
             var newCustomer = _customerRepository.Create(customer);
             return Json(newCustomer);
         }

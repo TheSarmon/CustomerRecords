@@ -1,4 +1,4 @@
-﻿namespace CustomerRecords.API.Models
+namespace CustomerRecords.API.Models
 {
     public class ErrorViewModel
     {

@@ -101,13 +101,29 @@
     }
 
     function Save() {
+        var firstName = $.trim($("#txtFirstName").val());
+        var lastName = $.trim($("#txtLastName").val());
+        var phoneNumber = $.trim($("#txtPhoneNumber").val());
+        var address = $.trim($("#txtAddress").val());
+
+        if (!firstName || !lastName || !phoneNumber || !address) {
+            alert("Please fill in all fields before saving!");
+            return;
+        }
+
+        if (phoneNumber.length !== 10 || !/^\d+$/.test(phoneNumber)) {
+            alert("Phone number must be exactly 10 digits.");
+            return;
+        }
+
         var customer = {
             id: $.trim($("#txtCustomerId").val()),
-            FirstName: $.trim($("#txtFirstName").val()),
-            LastName: $.trim($("#txtLastName").val()),
-            PhoneNumber: $.trim($("#txtPhoneNumber").val()),
-            Address: $.trim($("#txtAddress").val())
+            FirstName: firstName,
+            LastName: lastName,
+            PhoneNumber: phoneNumber,
+            Address: address
         };
+
         $.post("../Customers/CreateCustomer", customer, function (cust) {
             LoadCustomers();
         });

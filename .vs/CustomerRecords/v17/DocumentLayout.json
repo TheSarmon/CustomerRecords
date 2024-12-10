@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\projects\\si heshtek\\CustomerRecords\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +42,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CustomerRecords.API\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CustomerRecords.API\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T17:29:10.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "CustomerRecords.API\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "CustomerRecords.API\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:24:41.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerRecords.API\\Models\\Customer.cs",
+              "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerRecords.API\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:18:18.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CustomerRecords.API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CustomerRecords.API\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T17:18:04.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Customers\\Index.cshtml",
               "RelativeDocumentMoniker": "CustomerRecords.API\\Views\\Customers\\Index.cshtml",
               "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Customers\\Index.cshtml",
               "RelativeToolTip": "CustomerRecords.API\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAYwE4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwEwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-10T16:15:45.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T16:15:45.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Program.cs",
               "RelativeDocumentMoniker": "CustomerRecords.API\\Program.cs",
