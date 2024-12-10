@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\projects\\si heshtek\\CustomerRecords\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|c:\\projects\\si heshtek\\customerrecords\\customerrecords.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DBB2695-45B3-419F-A137-D3BB9A9FB1BE}|CustomerRecords.API\\CustomerRecords.API.csproj|solutionrelative:customerrecords.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,15 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "CustomerRecords.API\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "CustomerRecords.API\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwE4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T16:15:45.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Program.cs",
               "RelativeDocumentMoniker": "CustomerRecords.API\\Program.cs",
               "ToolTip": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\Program.cs",
               "RelativeToolTip": "CustomerRecords.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T15:57:46.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T15:57:46.722Z"
             }
           ]
         }

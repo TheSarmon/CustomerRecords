@@ -76,6 +76,8 @@
     });
     function LoadCustomers() {
         Reset();
+        $("#tblCustomer tbody").empty();
+
         $.get("../Customers/GetCustomers", function (customers) {
             _customers = customers;
             $.map(customers, function (customer) {
