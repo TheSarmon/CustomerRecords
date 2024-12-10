@@ -40,9 +40,10 @@ namespace CustomerRecords.Application.Repositories
             return _customersTable.Find(c => c.Id == customerId).FirstOrDefault();
         }
 
-        public void Delete(string customerId) 
+        public string Delete(string customerId)
         {
             _customersTable.DeleteOne(c => c.Id == customerId);
+            return "Deleted";
         }
     }
 }

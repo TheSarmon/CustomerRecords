@@ -209,6 +209,19 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "CustomerRecords.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MongoDB.Driver": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CustomerRecords.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomerRecords.Application.dll": {}
+        }
       }
     }
   },
@@ -591,10 +604,16 @@
         "zstdsharp.port.0.7.3.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "CustomerRecords.Application/1.0.0": {
+      "type": "project",
+      "path": "../CustomerRecords.Application/CustomerRecords.Application.csproj",
+      "msbuildProject": "../CustomerRecords.Application/CustomerRecords.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CustomerRecords.Application >= 1.0.0",
       "MongoDB.Driver >= 3.1.0"
     ]
   },
@@ -629,7 +648,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.Application\\CustomerRecords.Application.csproj": {
+              "projectPath": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.Application\\CustomerRecords.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

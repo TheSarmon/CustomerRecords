@@ -1,5 +1,5 @@
-﻿using CustomerRecords.API.Repositories;
-using CustomerRecords.API.Models;
+﻿using CustomerRecords.Application.Repositories;
+using CustomerRecords.Application.Models;
 
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,7 +15,7 @@ namespace CustomerRecords.API.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            return View("Index");
         }
         public JsonResult GetCustomers()
         {
@@ -25,11 +25,6 @@ namespace CustomerRecords.API.Controllers
 
         public JsonResult CreateCustomer(Customer customer)
         {
-            if (!ModelState.IsValid)
-            {
-                return Json(new { success = false, message = "Invalid input" });
-            }
-
             var newCustomer = _customerRepository.Create(customer);
             return Json(newCustomer);
         }

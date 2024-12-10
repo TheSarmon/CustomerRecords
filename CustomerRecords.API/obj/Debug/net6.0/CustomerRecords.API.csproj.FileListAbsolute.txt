@@ -37,9 +37,6 @@ C:\projects\si heshtek\CustomerRecords.API\obj\Debug\net6.0\CustomerRecords.API.
 C:\projects\si heshtek\CustomerRecords.API\obj\Debug\net6.0\CustomerRecords.API.genruntimeconfig.cache
 C:\projects\si heshtek\CustomerRecords.API\obj\Debug\net6.0\ref\CustomerRecords.API.dll
 C:\projects\si heshtek\CustomerRecords.API\bin\Debug\net6.0\libman.json
-C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\appsettings.Development.json
-C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\appsettings.json
-C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\libman.json
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\CustomerRecords.API.staticwebassets.runtime.json
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\CustomerRecords.API.exe
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\CustomerRecords.API.deps.json
@@ -68,12 +65,12 @@ C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\stat
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CustomerRecords.API.props
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CustomerRecords.API.props
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\staticwebassets.pack.json
-C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\scopedcss\bundle\CustomerRecords.API.styles.css
-C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\scopedcss\projectbundle\CustomerRecords.API.bundle.scp.css
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\Customer.956FA218.Up2Date
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\CustomerRecords.API.dll
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\refint\CustomerRecords.API.dll
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\CustomerRecords.API.pdb
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\CustomerRecords.API.genruntimeconfig.cache
 C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\obj\Debug\net6.0\ref\CustomerRecords.API.dll
+C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\CustomerRecords.Application.dll
+C:\projects\si heshtek\CustomerRecords\CustomerRecords.API\bin\Debug\net6.0\CustomerRecords.Application.pdb

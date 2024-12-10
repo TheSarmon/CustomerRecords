@@ -1,6 +1,8 @@
-﻿@{
-    ViewData["Title"] = "Employee Page";
-}
+﻿
+<div class="text-center mb-4">
+    <h1>Customer Management System</h1>
+    <p class="text-muted">Easily manage your customers and their details</p>
+</div>
 
 <div class="row">
     <div class="col-md-4">
@@ -26,6 +28,14 @@
             </div>
             <div class="col-md-8">
                 <input id="txtLastName" class="inputField" style="width:100%;" placeholder="Doe" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <label>Email:</label>
+            </div>
+            <div class="col-md-8">
+                <input id="txtEmail" class="inputField" style="width:100%;" placeholder="example@gmail.com" />
             </div>
         </div>
         <div class="row">
@@ -59,6 +69,7 @@
                     <th>Customer Id</th>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th>Email</th>
                     <th>Phone Number</th>
                     <th>Address</th>
                 </tr>
@@ -68,84 +79,7 @@
     </div>
 </div>
 
+<link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/jquery/jquery.min.js"></script>
-<script type="text/javascript">
-    var _customers = [];
-    $(document).ready(function () {
-        LoadCustomers();
-    });
-    function LoadCustomers() {
-        Reset();
-        $("#tblCustomer tbody").empty();
-
-        $.get("../Customers/GetCustomers", function (customers) {
-            _customers = customers;
-            $.map(customers, function (customer) {
-                var tempStr = "<tr>";
-                tempStr += "<td>"  + customer.id + "</td>";
-                tempStr += "<td>" + customer.firstName + "</td>";
-                tempStr += "<td>" + customer.lastName + "</td>";
-                tempStr += "<td>" + customer.phoneNumber + "</td>";
-                tempStr += "<td>" + customer.address + "</td>";
-                //tempStr += "<td><button class= 'btn btn-primary' onclick='Edit(\"" + customer.id + "\")'>Edit</button><button class='btn btn-danger' onclick='Delete(\"" + customer.id + "\")'>Delete</button>
-                tempStr += "<td><button class='btn btn-primary' onclick='Edit(\"" + customer.id + "\")'>Edit</button><button class='btn btn-danger' onclick='Delete(\"" + customer.id + "\")'>Delete</button>";
-                tempStr += "</tr>";
-                $("#tblCustomer tbody").append(tempStr);
-            });
-        });
-    }
-
-    function Reset(){
-        _customers = [];
-        $(".inputField").val("");
-    }
-
-    function Save() {
-        var firstName = $.trim($("#txtFirstName").val());
-        var lastName = $.trim($("#txtLastName").val());
-        var phoneNumber = $.trim($("#txtPhoneNumber").val());
-        var address = $.trim($("#txtAddress").val());
-
-        if (!firstName || !lastName || !phoneNumber || !address) {
-            alert("Please fill in all fields before saving!");
-            return;
-        }
-
-        if (phoneNumber.length !== 10 || !/^\d+$/.test(phoneNumber)) {
-            alert("Phone number must be exactly 10 digits.");
-            return;
-        }
-
-        var customer = {
-            id: $.trim($("#txtCustomerId").val()),
-            FirstName: firstName,
-            LastName: lastName,
-            PhoneNumber: phoneNumber,
-            Address: address
-        };
-
-        $.post("../Customers/CreateCustomer", customer, function (cust) {
-            LoadCustomers();
-        });
-    }
-
-    function Edit(customerId) {
-        var customer = _customers.find(c => c.id == customerId);
-        $("#txtCustomerId").val(customer.id);
-        $("#txtFirstName").val(customer.firstName);
-        $("#txtLastName").val(customer.lastName);
-        $("#txtPhoneNumber").val(customer.phoneNumber);
-        $("#txtAddress").val(customer.address);
-    }
-
-    function Delete(customerId) {
-        $.ajax({
-            url: "../Customers/DeleteCustomer?customerId=" + customerId,
-            method: 'DELETE'
-        })
-            .done(function (data) {
-                alert(data);
-                LoadCustomers();
-            });
-    }
-</script>
+<script src="~/js/site.js"></script>

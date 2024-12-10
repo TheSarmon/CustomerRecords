@@ -7,6 +7,6 @@ namespace CustomerRecords.Application.Repositories
         List<Customer> GetAll();
         Customer Create(Customer customer);
         Customer GetById(string customerId);
-        void Delete(string customerId);
+        string Delete(string customerId);
     }
 }

@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CustomerRecords.API.bundle.scp.css",
-      "PackagePath": "staticwebassets\\CustomerRecords.API.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\projects\\si heshtek\\CustomerRecords\\CustomerRecords.API\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
